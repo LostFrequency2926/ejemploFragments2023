@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ejemploFragments2023</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="SupermanPowers">super strength, flight, invulnerability, super speed, heat vision, freeze breath, x-ray vision, superhuman hearing, healing factor</string>
+    <string name="SupermanRealName">Clark Kent, Kal-El</string>
+    <string name="SupermanName">Super Man</string>
+
+    <string name="FlashPowers">super speed, intangibility, superhuman agility, time travel, creates and controls lightning, multiversal knowledge</string>
+    <string name="FlashRealName">Barry Allen, Jay Garrick, Wally West</string>
+    <string name="FlashName">The Flash</string>
+
+    <string name="BatmanPowers">exceptional martial artist, combat strategy, inexhaustible wealth, brilliant deductive skill, advanced technology</string>
+    <string name="BatmanRealNameName">Bruce Wayne</string>
+    <string name="BatmanName">Batman</string>
+
+    <string name="WonderwomanPowers">super strength, invulnerability, flight, combat skill, combat strategy, superhuman agility, healing factor, magic weaponry</string>
+    <string name="WonderwomanRealName">Diana Prince</string>
+    <string name="WonderwomanName">Wonder Woman</string>
+
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

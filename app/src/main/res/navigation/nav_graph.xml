@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/wonderWomanFragment">
+
+    <fragment
+        android:id="@+id/supermanFragment"
+        android:name="com.danielfmunoz.ejemplofragments2023.SupermanFragment"
+        android:label="fragment_superman"
+        tools:layout="@layout/fragment_superman" >
+        <action
+            android:id="@+id/action_supermanFragment_to_batmanFragment"
+            app:destination="@id/batmanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wonderWomanFragment"
+        android:name="com.danielfmunoz.ejemplofragments2023.WonderWomanFragment"
+        android:label="fragment_wonder_woman"
+        tools:layout="@layout/fragment_wonder_woman" >
+        <action
+            android:id="@+id/action_wonderWomanFragment_to_supermanFragment"
+            app:destination="@id/supermanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/flashFragment"
+        android:name="com.danielfmunoz.ejemplofragments2023.FlashFragment"
+        android:label="fragment_flash"
+        tools:layout="@layout/fragment_flash" >
+        <action
+            android:id="@+id/action_flashFragment_to_wonderWomanFragment3"
+            app:destination="@id/wonderWomanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/batmanFragment"
+        android:name="com.danielfmunoz.ejemplofragments2023.BatmanFragment"
+        android:label="fragment_batman"
+        tools:layout="@layout/fragment_batman" >
+        <action
+            android:id="@+id/action_batmanFragment_to_flashFragment"
+            app:destination="@id/flashFragment" />
+    </fragment>
+</navigation>
